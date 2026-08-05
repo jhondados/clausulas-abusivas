@@ -54,7 +54,7 @@ input,textarea{outline:none}
 <div id="root"></div>
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const CFG={"slug": "clausulas-abusivas", "titulo": "Detecção de Cláusulas Abusivas", "vertical": "Direito", "descricao": "Detecção de cláusulas abusivas em contratos de consumo com NLP. Protege o consumidor identificando violações ao CDC automaticamente.", "ia": ["NLP", "LLM", "CDC"], "demo": "classify", "fonte": "CDC + jurisprudência", "fonteUrl": "https://www.gov.br/mj", "kpis": [{"label": "Detecção", "value": "96%", "delta": "+14%"}, {"label": "Cláusulas", "value": "analisadas", "delta": ""}, {"label": "Violações CDC", "value": "flag", "delta": ""}, {"label": "Contratos", "value": "escala", "delta": ""}], "chartType": "bar", "chartLabel": "Cláusulas por Risco", "series": [50.3, 48.8, 40.2, 41.4, 45.0, 43.0, 50.7, 59.1, 66.9, 65.2, 69.1, 70.7, 62.2, 60.8, 59.6, 51.6, 53.9, 58.6, 65.4, 65.5, 73.8, 81.1, 78.4, 81.3], "features": ["Detecção de abuso (CDC)", "Análise de contrato de adesão", "Score de risco ao consumidor", "Sugestão de revisão"], "color": "#8b5cf6", "icon": "⚖️", "portfolioUrl": "https://jhondados.github.io/portfolio", "githubUser": "jhondados"};
 const {useState,useEffect,useRef,useMemo}=React;
